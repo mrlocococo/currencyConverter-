@@ -28,6 +28,8 @@ public class MainActivity extends AppCompatActivity {
 
         Toast.makeText(this, "$" + amountInDollars + " is £" + amountInPoundsString , Toast.LENGTH_LONG).show();
 
+        Log.i("Display Toast", "Congrats");
+        
     }
 
     @Override
